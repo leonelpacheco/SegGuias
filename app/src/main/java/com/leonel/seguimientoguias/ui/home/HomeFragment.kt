@@ -37,11 +37,11 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root //TODO tu codigo va bajo este
 
-        binding.button.text="Continuar"
+/*        binding.button.text="Continuar"
 
         binding.button.setOnClickListener {
 
-        }
+        }*/
 
         // val textView: TextView = binding.textHome
 /*        homeViewModel.text.observe(viewLifecycleOwner) {

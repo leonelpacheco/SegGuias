@@ -9,10 +9,11 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.leonel.seguimientoguias.R
 import com.leonel.seguimientoguias.databinding.FragmentHomeBinding
+import com.leonel.seguimientoguias.databinding.FragmentLoginBinding
 
 class LoginFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentLoginBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -28,7 +29,7 @@ class LoginFragment : Fragment() {
 
 
         // var rootView = inflater.inflate(R.layout.fragment_home, container, false)
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentLoginBinding.inflate(inflater, container, false)
         val root: View = binding.root //TODO tu codigo va bajo este
 
         binding.button.text="Continuar desde login"
