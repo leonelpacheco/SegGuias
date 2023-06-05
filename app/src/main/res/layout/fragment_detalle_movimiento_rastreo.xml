@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/include13"
+                layout="@layout/include_detalle_rastreo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view11"
+                android:layout_width="382dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/grey_20"
+                app:layout_constraintEnd_toEndOf="@+id/include13"
+                app:layout_constraintStart_toStartOf="@+id/include13"
+                app:layout_constraintTop_toBottomOf="@+id/include13" />
+
+            <include
+                android:id="@+id/include14"
+                layout="@layout/include_movimiento_rastreo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/include13"
+                app:layout_constraintStart_toStartOf="@+id/include13"
+                app:layout_constraintTop_toBottomOf="@+id/view11" />
+
+            <include
+                android:id="@+id/include15"
+                layout="@layout/include_movimiento_rastreo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/include14"
+                app:layout_constraintStart_toStartOf="@+id/include14"
+                app:layout_constraintTop_toBottomOf="@+id/include14" />
+
+            <include
+                android:id="@+id/include16"
+                layout="@layout/include_movimiento_rastreo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/include15"
+                app:layout_constraintStart_toStartOf="@+id/include15"
+                app:layout_constraintTop_toBottomOf="@+id/include15" />
+
+            <include
+                android:id="@+id/include17"
+                layout="@layout/include_movimiento_rastreo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/include16"
+                app:layout_constraintStart_toStartOf="@+id/include16"
+                app:layout_constraintTop_toBottomOf="@+id/include16" />
+
+            <include
+                layout="@layout/include_firma_rastreo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/include17"
+                app:layout_constraintStart_toStartOf="@+id/include17"
+                app:layout_constraintTop_toBottomOf="@+id/include17" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

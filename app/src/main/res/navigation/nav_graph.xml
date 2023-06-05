@@ -12,14 +12,14 @@
         tools:layout="@layout/activity_main" />
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.leonel.designandroid.ui.home.HomeFragment"
-        android:label="HomeFragment"
-        tools:layout="@layout/fragment_home"/>
+        android:name="com.leonel.designandroid.ui.home.DetalleMovimientoRastreoFragment"
+        android:label="Detalle Movimiento Rastreo"
+        tools:layout="@layout/fragment_detalle_movimiento_rastreo"/>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.leonel.seguimientoguias.ui.home.login.LoginFragment"
-        android:label="Login"
-        tools:layout="@layout/fragment_login" >
+        android:name="com.leonel.seguimientoguias.ui.home.login.RastreoFragment"
+        android:label="Rastreo"
+        tools:layout="@layout/fragment_rastreo" >
         <action
             android:id="@+id/action_loginFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
