@@ -9,5 +9,30 @@
     <string name="rowbeersaved_txt_rating">Rate this Beer</string>
 
 
+    <string name="includepropiedades_txt_textabv">ABV</string>
+    <string name="includepropiedades_txt_abv">4.5%</string>
+    <string name="includepropiedades_txt_textibu">IBU</string>
+    <string name="includepropiedades_txt_ibu">60</string>
+    <string name="includepropiedades_txt_textog">OG</string>
+    <string name="includepropiedades_txt_og">1044</string>
+    <string name="includepropiedades_txt_textfg">FG</string>
+    <string name="includepropiedades_txt_fg">1010</string>
+
+
+    <string name="detallebeer_txt_texttips">Brewers Tips</string>
+    <string name="detallebeer_txt_tips">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</string>
+    <string name="detallebeer_txt_textyeast">Yeast</string>
+    <string name="detallebeer_txt_yeast">Wyeast 1056 -American Ale-</string>
+    <string name="detallebeer_txt_textexperience">A Real Bitter Experience.</string>
+    <string name="detallebeer_txt_experience">First breweb 09/2007</string>
+    <string name="detallebeer_txt_beer">20 Litros</string>
+    <string name="detallebeer_txt_title">Trashy Blonde</string>
+
+
+
+
+
+
+
 
 </resources>
