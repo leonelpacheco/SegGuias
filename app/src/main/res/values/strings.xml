@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">SeguimientoGuias</string>
+
+
+    <string name="rowbeer_txt_title">Buzz</string>
+    <string name="rowbeer_txt_subtitle">Sam Mason</string>
+    <string name="rowbeersaved_txt_title">Trashy Blonde</string>
+    <string name="rowbeersaved_txt_subtitle">Trashy Blonde,Trashy Blonde</string>
+    <string name="rowbeersaved_txt_rating">Rate this Beer</string>
+
+
+
 </resources>
