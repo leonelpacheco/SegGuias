@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Wp00237269"
+                android:text="@string/includedetallerastreo_txt_guia"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Piezas agregadas"
+                android:text="@string/includedetallerastreo_txt_textpiezasagregadas"
                 app:layout_constraintStart_toStartOf="@+id/txt_guia"
                 app:layout_constraintTop_toBottomOf="@+id/txt_guia" />
 
@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Recibio: Andres Alberto pech "
+                android:text="@string/includedetallerastreo_txt_recibio"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/textView119"
                 app:layout_constraintTop_toBottomOf="@+id/textView119" />
@@ -96,7 +96,7 @@
                             android:id="@+id/txt_origen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mérida Yucatán"
+                            android:text="@string/includedetallerastreo_txt_origen"
                             android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +106,7 @@
                             android:id="@+id/textView121"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Origen"
+                            android:text="@string/includedetallerastreo_txt_textorigen"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="@+id/txt_origen"
                             app:layout_constraintTop_toBottomOf="@+id/txt_origen" />
@@ -173,7 +173,7 @@
                             android:id="@+id/textView124"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Destino"
+                            android:text="@string/includedetallerastreo_txt_textdestino"
                             app:layout_constraintEnd_toEndOf="@id/txt_destino"
                             app:layout_constraintTop_toBottomOf="@+id/txt_destino" />
                     </androidx.constraintlayout.widget.ConstraintLayout>

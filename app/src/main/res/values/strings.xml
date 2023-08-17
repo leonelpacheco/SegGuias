@@ -2,6 +2,33 @@
     <string name="app_name">SeguimientoGuias</string>
 
 
+    <string name="includedetallerastreo_txt_guia">Wp00237269</string>
+    <string name="includedetallerastreo_txt_textpiezasagregadas">Piezas agregadas</string>
+    <string name="includedetallerastreo_txt_recibio">Recibio: Andres Alberto pech </string>
+    <string name="includedetallerastreo_txt_origen">Mérida Yucatán</string>
+    <string name="includedetallerastreo_txt_textorigen">Origen</string>
+    <string name="includedetallerastreo_txt_destino">Cancún Quintana Roo</string>
+    <string name="includedetallerastreo_txt_textdestino">Destino</string>
+
+
+
+    <string name="includemovimientorastreo_txt_fecha">08/05/2023 5:45.34 pm</string>
+    <string name="includemovimientorastreo_txt_textdetalles">Detalles</string>
+    <string name="includemovimientorastreo_txt_recibio">Recibió: DEVOLUCION identificación</string>
+    <string name="includemovimientorastreo_txt_observaciones">Observaciones: ANDRES ALBERTO PECH ARMENGOD. CALL CENTER SOLICITA DEVOLUCION</string>
+    <string name="includemovimientorastreo_txt_confirmacion">Confirmación de entrega MERIDA YUCATAN</string>
+
+
+    <string name="fragmentrastreo_txt_textrastreo">Rastreo</string>
+    <string name="fragmentrastreo_txt_textescribaguia">Escriba su numero de guia (Capture el número completo incluyendo los ceros)</string>
+    <string name="fragmentrastreo_etxt_guia">Inserte el número de guía</string>
+    <string name="fragmentrastreo_btn_rastrear">Rastrear</string>
+
+
+
+
+
+
     <string name="rowbeer_txt_title">Buzz</string>
     <string name="rowbeer_txt_subtitle">Sam Mason</string>
     <string name="rowbeersaved_txt_title">Trashy Blonde</string>
